@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  background-color: #7a3535;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(185, 151, 148);
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.box1 {
+  top: 0;
+  left: 0;
+  border: 10px solid rgb(163, 91, 8);
+  padding: 15px;
+}
+
+.box2 {
+  top: calc(0px + 200px);
+  left: calc(0px + 200px);
+  border-top: 20px dotted rgb(238, 96, 148);
+  border-bottom: 20px double rgb(61, 222, 98);
+  border-left: 10px double rgb(219, 43, 216);
+  border-right: 10px double rgb(115, 83, 228);
+}
+
+.box3 {
+  top: calc(200px + 200px);
+  left: calc(200px + 200px);
+  border: 10px solid rgb(19, 237, 22);
+}
+p {
+  margin: 0;
+}
